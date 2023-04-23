@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Ysabeau&display=swap');
+
+body{
+    font-family: Ysabeau, serif;
+    background: linear-gradient(90deg, #CC4444 0%, #03073f 100%);
+}
+
+p{
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(184, 24, 24);
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+
+}
+.navbar-toggler{
+    background-color: rgb(184, 24, 24);
+}
+.card-body{
+    text-align: center;
+}
+.sidebar{
+    color:rgb(191, 195, 199);
+    background: linear-gradient(270deg, #CC4444 0%, #1522D8 100%);
+}
+.card{
+    background: linear-gradient(270deg, #CC4444 0%, #1522D8 100%);
+    color: #97bddd;
+
+}
+.footer-text{
+    color:rgb(191, 195, 199);
+    margin: auto auto; 
+}
+footer{
+    background: linear-gradient(270deg, #CC4444 0%, #03073f 100%);
+}
+.nav-link{
+   
+    color: antiquewhite;
+    margin-left: 5px;
+    text-align: center;
+  
+}
+.media-footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anime{
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 0;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
